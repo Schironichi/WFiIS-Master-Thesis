@@ -10,17 +10,15 @@ public class PrefabManager : MonoBehaviour
     private ExperimentData currentExperiment;
     private GameObject spawnedPrefab;
     private int currentPrefabIndex = 0;
-    private GameObject spawnedPrefabParent;
     private Color transparent = new Color(0, 0, 0, 0);
     private Color white = new Color(1, 1, 1, 1);
 
+    public GameObject spawnedPrefabParent;
     public TextMeshPro experimentTitle;
     public TextMeshProUGUI infoBoardText;
     public Image infoBoardImage;
     void Start()
     {
-        spawnedPrefabParent = new GameObject("Components");
-        spawnedPrefabParent.transform.position = new Vector3(0, 1, 4);
         // Spawn the first prefab when the scene starts
         SpawnPrefab();
     }
