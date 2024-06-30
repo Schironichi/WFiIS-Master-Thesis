@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: 'Step 1: Preparation'
   experimentDescription: {fileID: 4900000, guid: 63b5a241888ef5a48974961ff77f0392, type: 3}
-  experimentObject: {fileID: 1567257762133065363, guid: 9bd526e62b1af3a4287507c8b26e3192, type: 3}
+  experimentObject: {fileID: 8801555054175970585, guid: 0426c22a3ab0bd04db6a2fb511cd6fee, type: 3}
   experimentImage: {fileID: 21300000, guid: ec2a0363c30efeb42951b7cfe7c1d4f6, type: 3}

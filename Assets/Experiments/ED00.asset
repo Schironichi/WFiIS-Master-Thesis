@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: ExpoStart
+  m_Name: ED00
   m_EditorClassIdentifier: 
-  experimentName: lol xd
-  experimentDescription: opis opis opis haha nice nice nice
+  experimentName: Initialization
+  experimentDescription: {fileID: 4900000, guid: 3e4f3cb8686b339498acc8b57c088534, type: 3}
   experimentObject: {fileID: 0}
   experimentImage: {fileID: 0}
