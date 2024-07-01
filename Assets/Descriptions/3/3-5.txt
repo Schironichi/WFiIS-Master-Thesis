@@ -1,0 +1,1 @@
+Install the cryostat on the base. Make sure to use 4 screws and verify if cryostat is stable.

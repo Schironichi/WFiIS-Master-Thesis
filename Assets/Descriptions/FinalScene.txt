@@ -1,0 +1,3 @@
+The microscope has been configured successfully. You may now analyze the sample.
+
+Clicking the "Next" button will move the application to configuration selection screen.

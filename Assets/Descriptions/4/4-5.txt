@@ -1,0 +1,1 @@
+Verify the illumination system through the eyepiece. By default, they should be arranged in the form of a "Maltese" cross.

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ee34c6e79ed9e45ab73f76ff4fbb91, type: 3}
+  m_Name: 03_Cryochamber
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentDataList
+  experimentDatas:
+  - {fileID: 11400000, guid: f30095909a403f344aea468689c872c2, type: 2}
+  - {fileID: 11400000, guid: 4d683118aa0dea04b850e038a95fbb6c, type: 2}
+  - {fileID: 11400000, guid: c70745a0e39d31e43a45a2543b696c44, type: 2}
+  - {fileID: 11400000, guid: d0ee59751e3ae8946837443d74de6341, type: 2}
+  - {fileID: 11400000, guid: e5fb35ac7e37f224d84a99a177b3dbeb, type: 2}
+  - {fileID: 11400000, guid: e2432856cbc015646bb1ac563456994d, type: 2}
+  - {fileID: 11400000, guid: 295bc07492e21ac4999babeaace845fe, type: 2}
+  - {fileID: 11400000, guid: 53f11d90debadb746b13d91a69569e8e, type: 2}
+  - {fileID: 11400000, guid: 4b22c6e46a31d23499be4bcbc933c090, type: 2}
+  - {fileID: 11400000, guid: fcf333985503d9f48a464de2cf167b69, type: 2}
+  - {fileID: 11400000, guid: 5047fe0ba361b8043abaab0d1d343b1c, type: 2}

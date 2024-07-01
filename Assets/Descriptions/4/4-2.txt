@@ -1,0 +1,1 @@
+Turn on any LED illuminator lamps.

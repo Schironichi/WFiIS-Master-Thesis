@@ -1,70 +1,136 @@
+using Microsoft.MixedReality.Toolkit.UI;
+using Microsoft.MixedReality.Toolkit.UI.BoundsControl;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PrefabManager : MonoBehaviour
 {
-    [SerializeField] private List<ExperimentData> experimentsList = new List<ExperimentData>();
+    private List<ExperimentData> experimentsList = new List<ExperimentData>();
     private ExperimentData currentExperiment;
     private GameObject spawnedPrefab;
     private int currentPrefabIndex = 0;
     private Color transparent = new Color(0, 0, 0, 0);
     private Color white = new Color(1, 1, 1, 1);
+    private int tempPrefabIndex;
 
+    [SerializeField] private List<ExperimentData> setupExperimentsList = new List<ExperimentData>();
     public GameObject spawnedPrefabParent;
     public TextMeshPro experimentTitle;
     public TextMeshProUGUI infoBoardText;
     public Image infoBoardImage;
+    public GameObject sceneSelector;
     void Start()
     {
+        experimentsList = new List<ExperimentData>(setupExperimentsList);
         // Spawn the first prefab when the scene starts
         SpawnPrefab();
     }
-    public void SpawnNextPrefab()
+    public void AddExperimentsCombined(ExperimentDataCombined experimentDataCombined)
     {
-        // Destroy the currently spawned prefab, if any
+        experimentsList = new List<ExperimentData>(setupExperimentsList);
+        foreach (ExperimentDataList sublist in experimentDataCombined.experimentDataLists)
+        {
+            experimentsList.AddRange(sublist.experimentDatas);
+        }
+    }
+
+    private void RemovePrefab()
+    {
         if (spawnedPrefab != null)
         {
-            Destroy(spawnedPrefab);
+            if (spawnedPrefab.CompareTag("Selector"))
+            {
+                spawnedPrefab.SetActive(false);
+            }
+            else
+            {
+                Destroy(spawnedPrefab);
+            }
         }
-
-        // Increment the index to move to the next prefab in the list
-        currentPrefabIndex++;
-        if (currentPrefabIndex >= experimentsList.Count)
+    }
+    public void SpawnNextPrefab()
+    {
+        if (currentPrefabIndex >= experimentsList.Count - 1)
         {
             currentPrefabIndex = 0; // Wrap around to the start if reaching the end
         }
+        // Destroy the currently spawned prefab, if any
+        RemovePrefab();
 
+        // Increment the index to move to the next prefab in the list
+        currentPrefabIndex++;
         // Spawn the next prefab
         SpawnPrefab();
+
+    }
+    public void SpawnCalibrationSetup()
+    {
+        if (currentPrefabIndex != 0)
+        {
+            // Destroy the currently spawned prefab, if any
+            RemovePrefab();
+
+            // Decrement the index to move to the previous prefab in the list
+            tempPrefabIndex = currentPrefabIndex - 1;
+            currentPrefabIndex = 0;
+            SpawnPrefab();
+            currentPrefabIndex = tempPrefabIndex;
+        }
     }
 
     public void SpawnPreviousPrefab()
     {
-        // Destroy the currently spawned prefab, if any
-        if (spawnedPrefab != null)
+        if (currentPrefabIndex <= 0)
         {
-            Destroy(spawnedPrefab);
+            //currentPrefabIndex = experimentsList.Count - 1; // Wrap around to the end if reaching the start
         }
-
-        // Decrement the index to move to the previous prefab in the list
-        currentPrefabIndex--;
-        if (currentPrefabIndex < 0)
+        else
         {
-            currentPrefabIndex = experimentsList.Count - 1; // Wrap around to the end if reaching the start
-        }
+            // Destroy the currently spawned prefab, if any
+            RemovePrefab();
 
-        // Spawn the previous prefab
-        SpawnPrefab();
+            // Decrement the index to move to the previous prefab in the list
+            currentPrefabIndex--;
+
+            // Spawn the previous prefab
+            SpawnPrefab();
+        }
     }
     private void SpawnPrefab()
     {
         currentExperiment = experimentsList[currentPrefabIndex];
-        spawnedPrefab = Instantiate(currentExperiment.experimentObject, spawnedPrefabParent.transform);
+
+        // Disable calibration setup
+        if (currentPrefabIndex == 0)
+        {
+            spawnedPrefabParent.GetComponentInChildren<BoundsControl>().enabled = true;
+            spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().enabled = true;
+        }
+        else
+        {
+            spawnedPrefabParent.GetComponentInChildren<BoundsControl>().enabled = false;
+            spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().enabled = false;
+        }
+
+        if (currentExperiment.experimentObject != null)
+        {
+            if (currentExperiment.experimentObject.CompareTag("Selector"))
+            {
+                spawnedPrefab = sceneSelector;
+                spawnedPrefab.SetActive(true);
+            }
+            else
+            {
+                spawnedPrefab = Instantiate(currentExperiment.experimentObject, spawnedPrefabParent.transform);
+            }
+        }
         // Display the title for the spawned prefab
-        experimentTitle.text = currentExperiment.experimentName;
+        experimentTitle.text = currentPrefabIndex + ": " + currentExperiment.experimentName;
         // Display the instruction for the spawned prefab
         if (currentExperiment.experimentDescription != null)
         {
