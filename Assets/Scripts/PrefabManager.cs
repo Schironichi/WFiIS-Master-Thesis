@@ -108,6 +108,7 @@ public class PrefabManager : MonoBehaviour
         // Disable calibration setup
         if (currentPrefabIndex == 0)
         {
+            spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().gameObject.GetComponent<MeshRenderer>().enabled = true;
             spawnedPrefabParent.GetComponentInChildren<BoundsControl>().enabled = true;
             spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().enabled = true;
         }
@@ -115,6 +116,7 @@ public class PrefabManager : MonoBehaviour
         {
             spawnedPrefabParent.GetComponentInChildren<BoundsControl>().enabled = false;
             spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().enabled = false;
+            spawnedPrefabParent.GetComponentInChildren<ObjectManipulator>().gameObject.GetComponent<MeshRenderer>().enabled = false;
         }
 
         if (currentExperiment.experimentObject != null)
