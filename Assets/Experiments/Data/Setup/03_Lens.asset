@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Lens Installation
   experimentDescription: {fileID: 4900000, guid: 8d93ca541af93a74a92136c106be5be8, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 2129524934616692531, guid: 04dad5067b89e3644befa2125e27ba75, type: 3}
   experimentImage: {fileID: 21300000, guid: 28af577cf67817a4d993b1f436fa630a, type: 3}

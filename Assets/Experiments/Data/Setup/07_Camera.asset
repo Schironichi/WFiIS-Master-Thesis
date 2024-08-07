@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Camera Activation
   experimentDescription: {fileID: 4900000, guid: 67a5474f2c4e90b489f2dece114182b8, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 3867231571288302011, guid: ea5ac1bf360ecaa4096d8a942f13573c, type: 3}
   experimentImage: {fileID: 21300000, guid: d9cc0c256a5b551428ef426eb36edbdb, type: 3}

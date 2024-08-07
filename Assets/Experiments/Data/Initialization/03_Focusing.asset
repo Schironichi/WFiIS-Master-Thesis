@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Microscope Focusing
   experimentDescription: {fileID: 4900000, guid: ba2fcc0d75a75864cb60268b47d9d341, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 7040199047696811580, guid: 4626ff2565bdd834ca8e9b31c4e707d5, type: 3}
   experimentImage: {fileID: 21300000, guid: 47d8c2213c84eeb4b9878a5219fc4d99, type: 3}

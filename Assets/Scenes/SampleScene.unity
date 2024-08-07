@@ -846,6 +846,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 271344a36696ae3498fe5099512365b5, type: 2}
+    - target: {fileID: -6400281290468069383, guid: 9865c1245218c1d4d936538257280085, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: a12e2a9fd616a264e8ee230e681d66ef, type: 3}
     - target: {fileID: 919132149155446097, guid: 9865c1245218c1d4d936538257280085, type: 3}
       propertyPath: m_Name
       value: Microscope
@@ -1821,8 +1825,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 38.04608, y: 37.549652, z: 47.489277}
-  m_Center: {x: 5.977088, y: 16, z: 6.4999943}
+  m_Size: {x: 50.299656, y: 44.50533, z: 47.489277}
+  m_Center: {x: 12.103755, y: 19.477835, z: 6.4999943}
 --- !u!114 &1150565033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,6 +1878,27 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   elasticsManager: {fileID: 0}
+--- !u!95 &1150565037
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150565025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ae844c13ae57a77439e6a7d615803706, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1189626374
 PrefabInstance:
   m_ObjectHideFlags: 0

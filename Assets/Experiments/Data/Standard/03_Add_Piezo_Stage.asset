@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Piezo Stage Mounting
   experimentDescription: {fileID: 4900000, guid: 30a5046fa7ab18b41826a7714b198230, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 7847993238080703834, guid: 01d794f7d10d9214f919e71287125d55, type: 3}
   experimentImage: {fileID: 21300000, guid: 8c6395c1851128645a7cce95f690e714, type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
+  m_Name: 02c_CameraToggle
+  m_EditorClassIdentifier: 
+  experimentName: Camera/Spectacles Switch Adjustment
+  experimentDescription: {fileID: 0}
+  experimentObject: {fileID: 2192617573412270306, guid: cc02ec39a53833548ba60a9624a3efb8, type: 3}
+  experimentImage: {fileID: 0}

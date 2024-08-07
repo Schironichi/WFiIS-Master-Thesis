@@ -1,1 +1,3 @@
-Check carefully of the polarization angle.
+Carefully adjust the polarization angle.
+
+In most cases, 45 degrees should be the best angle.

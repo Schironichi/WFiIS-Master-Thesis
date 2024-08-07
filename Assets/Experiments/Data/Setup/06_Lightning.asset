@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Lightning Activation
   experimentDescription: {fileID: 4900000, guid: 5136049fc5d1ed2418da6ae9f5a1889a, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 8238100309105914337, guid: 241332c1a93fd0842887b113cf49efa1, type: 3}
   experimentImage: {fileID: 21300000, guid: 1aa924ec973a7d54eac96c7f7f7ec1ea, type: 3}
