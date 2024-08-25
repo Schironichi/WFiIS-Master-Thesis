@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 02c_CameraToggle
   m_EditorClassIdentifier: 
   experimentName: Camera/Spectacles Switch Adjustment
-  experimentDescription: {fileID: 0}
+  experimentDescription: {fileID: 4900000, guid: b9a04abf938e76045bc1dc4981ef54d0, type: 3}
   experimentObject: {fileID: 2192617573412270306, guid: cc02ec39a53833548ba60a9624a3efb8, type: 3}
-  experimentImage: {fileID: 0}
+  experimentImage: {fileID: 21300000, guid: 89fe3d4c0ccc5c9469b3aef6160f815b, type: 3}

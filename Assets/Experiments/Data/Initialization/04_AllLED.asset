@@ -15,4 +15,4 @@ MonoBehaviour:
   experimentName: Every LED Activation
   experimentDescription: {fileID: 4900000, guid: 01848cafaf5901e47b1d2a01d5971d3f, type: 3}
   experimentObject: {fileID: 0}
-  experimentImage: {fileID: 21300000, guid: c37ec3310aa0988428693b98aac7a472, type: 3}
+  experimentImage: {fileID: 21300000, guid: ada43af1825d9b441934d6dfd7d8ef5b, type: 3}

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Work Area Preparation
   experimentDescription: {fileID: 4900000, guid: 0f2dc544a7fda574eb9f1cc7c46423b6, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 5009172056765758987, guid: 7bbb947fff9ca9e428b002ce4525f22d, type: 3}
   experimentImage: {fileID: 21300000, guid: 3f8a785bb8317854dae3df97600278f7, type: 3}

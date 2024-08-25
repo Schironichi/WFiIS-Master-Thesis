@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: LED Cross Setup
   experimentDescription: {fileID: 4900000, guid: 7294bec7778bc944181eb18e2d5af82e, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 4538539472845442511, guid: 653ccdf0178808d4e903865656797016, type: 3}
   experimentImage: {fileID: 21300000, guid: d29d03e9cfcb2a4408973ce3ddd0473e, type: 3}

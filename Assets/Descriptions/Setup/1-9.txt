@@ -1,1 +1,1 @@
-Initialize the computer and KerrLab program. 
+Turn on the computer and start the KerrLab program. 

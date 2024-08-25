@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: 06_Aferromagnetic
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentDataList
   experimentDatas:
-  - {fileID: 11400000, guid: 4dd3003c01bff1d4698fc474435c21d2, type: 2}
   - {fileID: 11400000, guid: a97dea4a7ed05e140ad6cf0b8416793f, type: 2}

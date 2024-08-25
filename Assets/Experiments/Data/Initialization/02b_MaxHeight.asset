@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: 02_AnyLED
+  m_Name: 02b_MaxHeight
   m_EditorClassIdentifier: 
-  experimentName: Lighting Activation
-  experimentDescription: {fileID: 4900000, guid: 32dafd7855c89224aaffe5d6b9317791, type: 3}
-  experimentObject: {fileID: 0}
-  experimentImage: {fileID: 21300000, guid: c37ec3310aa0988428693b98aac7a472, type: 3}
+  experimentName: Height Adjustment - Move
+  experimentDescription: {fileID: 4900000, guid: 269c363e9daac2b489ff8a9f81dc6f71, type: 3}
+  experimentObject: {fileID: 8801555054175970585, guid: 9b95c06ee7fbbb24baa63d22e501b792, type: 3}
+  experimentImage: {fileID: 21300000, guid: d5f664c901289a84dad1a65419a012f0, type: 3}

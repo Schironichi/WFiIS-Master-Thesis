@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   experimentName: Polarizer Angle Check
   experimentDescription: {fileID: 4900000, guid: 1face40f6d621c043ba76b134f9ff14b, type: 3}
-  experimentObject: {fileID: 0}
+  experimentObject: {fileID: 7293756609364936970, guid: 9cbc83400e77a4044be649519a95dba6, type: 3}
   experimentImage: {fileID: 21300000, guid: 5c305c8267eb7f44b98caebdcadc0365, type: 3}
