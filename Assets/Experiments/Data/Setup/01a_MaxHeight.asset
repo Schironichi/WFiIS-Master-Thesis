@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: 01_Station
+  m_Name: 01a_MaxHeight
   m_EditorClassIdentifier: 
-  experimentName: Work Area Preparation
-  experimentDescription: {fileID: 4900000, guid: 0f2dc544a7fda574eb9f1cc7c46423b6, type: 3}
-  experimentObject: {fileID: 5009172056765758987, guid: 7bbb947fff9ca9e428b002ce4525f22d, type: 3}
-  experimentImage: {fileID: 21300000, guid: 3f8a785bb8317854dae3df97600278f7, type: 3}
+  experimentName: Height Adjustment - Unlock
+  experimentDescription: {fileID: 4900000, guid: f90efaa495a3df14e99798525607e90d, type: 3}
+  experimentObject: {fileID: 527293124310038983, guid: d3827baf25f0d174094f05bf46e887c2, type: 3}
+  experimentImage: {fileID: 21300000, guid: ec2a0363c30efeb42951b7cfe7c1d4f6, type: 3}

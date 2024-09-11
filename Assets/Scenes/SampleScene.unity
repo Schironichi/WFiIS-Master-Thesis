@@ -448,7 +448,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 518898052}
   - {fileID: 1368612460}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -591,50 +590,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &518898050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 518898052}
-  - component: {fileID: 518898051}
-  m_Layer: 0
-  m_Name: MyWoldLockingManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &518898051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518898050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20755742d3c86e64a95f6f826157951d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &518898052
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518898050}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.24022055, y: -1.3126863, z: -2.4417915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 202077249}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &549717917 stripped
 GameObject:
@@ -1334,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 3079305741556398585, guid: 184450d7fd18e3742b0612f6901efe5e, type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 7de780622ddab5e49b73d5d7a806faf9, type: 3}
+      objectReference: {fileID: 2800000, guid: bb1b4a9241fba2042a81428e917afd5d, type: 3}
     - target: {fileID: 4650336335196203188, guid: 184450d7fd18e3742b0612f6901efe5e, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1385,7 +1340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4650336335719039536, guid: 184450d7fd18e3742b0612f6901efe5e, type: 3}
       propertyPath: m_text
-      value: Admin
+      value: Recalibrate
       objectReference: {fileID: 0}
     - target: {fileID: 4650336335719039536, guid: 184450d7fd18e3742b0612f6901efe5e, type: 3}
       propertyPath: m_textAlignment
@@ -2069,7 +2024,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 202077249}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1368612461
 MonoBehaviour:
@@ -2130,7 +2085,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402115324}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93bf53c0f434c774fae7087613e7f766, type: 3}
   m_Name: 
@@ -2810,6 +2765,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6737375074327248322, guid: e14d7681e47660d499a5c45e48bf3a99, type: 3}
+      propertyPath: m_text
+      value: Cryostat + Aferromagnetic
+      objectReference: {fileID: 0}
     - target: {fileID: 7204772736510243479, guid: e14d7681e47660d499a5c45e48bf3a99, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2821,6 +2780,10 @@ PrefabInstance:
     - target: {fileID: 8100976303676656542, guid: e14d7681e47660d499a5c45e48bf3a99, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100976303676656608, guid: e14d7681e47660d499a5c45e48bf3a99, type: 3}
+      propertyPath: m_text
+      value: Cryostat + Ferromagnetic
       objectReference: {fileID: 0}
     - target: {fileID: 8942107808934558603, guid: e14d7681e47660d499a5c45e48bf3a99, type: 3}
       propertyPath: m_Mesh

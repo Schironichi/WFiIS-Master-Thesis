@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: 02c_CameraToggle
+  m_Name: 00_Station
   m_EditorClassIdentifier: 
-  experimentName: Camera/Spectacles Switch Adjustment
-  experimentDescription: {fileID: 4900000, guid: b9a04abf938e76045bc1dc4981ef54d0, type: 3}
-  experimentObject: {fileID: 2192617573412270306, guid: cc02ec39a53833548ba60a9624a3efb8, type: 3}
-  experimentImage: {fileID: 21300000, guid: 89fe3d4c0ccc5c9469b3aef6160f815b, type: 3}
+  experimentName: Work Area Preparation
+  experimentDescription: {fileID: 4900000, guid: 0f2dc544a7fda574eb9f1cc7c46423b6, type: 3}
+  experimentObject: {fileID: 5009172056765758987, guid: 7bbb947fff9ca9e428b002ce4525f22d, type: 3}
+  experimentImage: {fileID: 21300000, guid: 3f8a785bb8317854dae3df97600278f7, type: 3}

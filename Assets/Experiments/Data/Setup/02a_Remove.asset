@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: 06_Lightning
+  m_Name: 02a_Remove
   m_EditorClassIdentifier: 
-  experimentName: Lightning Activation
-  experimentDescription: {fileID: 4900000, guid: 5136049fc5d1ed2418da6ae9f5a1889a, type: 3}
-  experimentObject: {fileID: 8238100309105914337, guid: 241332c1a93fd0842887b113cf49efa1, type: 3}
-  experimentImage: {fileID: 21300000, guid: 1aa924ec973a7d54eac96c7f7f7ec1ea, type: 3}
+  experimentName: Unnecessary Parts Removal
+  experimentDescription: {fileID: 4900000, guid: e3cbea444044209488f056aa74164c05, type: 3}
+  experimentObject: {fileID: 0}
+  experimentImage: {fileID: 21300000, guid: 3f8a785bb8317854dae3df97600278f7, type: 3}

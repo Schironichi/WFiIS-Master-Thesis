@@ -15,4 +15,4 @@ MonoBehaviour:
   experimentName: Setup Complete
   experimentDescription: {fileID: 4900000, guid: ebb76ea7ebce0f7468bb910ec2aa6aff, type: 3}
   experimentObject: {fileID: 0}
-  experimentImage: {fileID: 21300000, guid: 02232e49e16d528438ef0a7d788113ae, type: 3}
+  experimentImage: {fileID: 0}

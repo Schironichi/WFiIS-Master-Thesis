@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
-  m_Name: 09_Remove
+  m_Name: 01b_MaxHeight
   m_EditorClassIdentifier: 
-  experimentName: Unnecessary Parts Removal
-  experimentDescription: {fileID: 4900000, guid: e3cbea444044209488f056aa74164c05, type: 3}
-  experimentObject: {fileID: 0}
-  experimentImage: {fileID: 21300000, guid: 3f8a785bb8317854dae3df97600278f7, type: 3}
+  experimentName: Height Adjustment - Move
+  experimentDescription: {fileID: 4900000, guid: f1a2fe809d67b5341b7e49232ef457d6, type: 3}
+  experimentObject: {fileID: 8801555054175970585, guid: 0426c22a3ab0bd04db6a2fb511cd6fee, type: 3}
+  experimentImage: {fileID: 21300000, guid: d5f664c901289a84dad1a65419a012f0, type: 3}
