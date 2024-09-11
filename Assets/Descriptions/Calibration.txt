@@ -1,0 +1,3 @@
+Application calibration is required to work properly. Grab the microscope hologram and match it with the real-life microscope.
+
+After that, press the "Next" button to save the positioning. 

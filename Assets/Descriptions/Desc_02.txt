@@ -1,5 +1,0 @@
-<size=42><b>Work Area Prep</b></size>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget elit a arcu dignissim tempor. Nam tincidunt, urna non facilisis laoreet, ante felis vestibulum justo, quis rutrum nulla odio a metus.
-
-Nullam vel arcu feugiat, mollis lectus et, ullamcorper orci. Suspendisse potenti. Fusce condimentum, ligula sit amet consequat vehicula, libero magna efficitur eros, vel scelerisque elit magna sed tortor.

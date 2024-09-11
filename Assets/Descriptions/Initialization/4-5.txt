@@ -1,0 +1,5 @@
+Verify the LED position through the eyepiece.
+
+For longitude or perpendicular Kerr observations, set the lights with hollow center.
+
+For polar or focta Kerr observations, adjust the lights to see an LED in the center.

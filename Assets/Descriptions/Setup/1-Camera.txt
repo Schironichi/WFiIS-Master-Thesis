@@ -1,0 +1,3 @@
+Extend spectacles toggle to set camera view.
+
+View can be toggled between between the spectacles and the camera at any time by pressing or pulling the knob.

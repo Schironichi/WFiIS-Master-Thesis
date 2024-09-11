@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
+  m_Name: 10_TempControl
+  m_EditorClassIdentifier: 
+  experimentName: Temperature Controller Activation
+  experimentDescription: {fileID: 4900000, guid: 7f38e96445dcdeb4d9f33152aa342074, type: 3}
+  experimentObject: {fileID: 0}
+  experimentImage: {fileID: 21300000, guid: c51a9c10d8edbce4d959c8aedd4cc210, type: 3}

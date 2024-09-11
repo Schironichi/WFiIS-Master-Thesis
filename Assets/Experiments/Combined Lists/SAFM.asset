@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e02093e3f98e43a89456fdba7d467, type: 3}
+  m_Name: SAFM
+  m_EditorClassIdentifier: 
+  experimentDataLists:
+  - {fileID: 11400000, guid: ae8a712cc361efe4bb0673b9eb0e0f24, type: 2}
+  - {fileID: 11400000, guid: 56c45f922aed5c7409d6e3ce8eb138ca, type: 2}
+  - {fileID: 11400000, guid: 4a6dc14ccab9750488bb595a85e62aa2, type: 2}
+  - {fileID: 11400000, guid: 34a05daaef5ec6643b000c0b42a1063b, type: 2}
+  - {fileID: 11400000, guid: 8db92c928d99e6846922547e0fdfc85d, type: 2}
+  - {fileID: 11400000, guid: f94760cf18958b849b5112bda9a256ef, type: 2}

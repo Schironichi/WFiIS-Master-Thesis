@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e883124a7c38599419d2feb1f305b707, type: 3}
+  m_Name: 06_KerrLab
+  m_EditorClassIdentifier: 
+  experimentName: KerrLab Configuration
+  experimentDescription: {fileID: 4900000, guid: e1f758e52e2ca8f4cb3409d943aaf6ce, type: 3}
+  experimentObject: {fileID: 0}
+  experimentImage: {fileID: 21300000, guid: 5df566295c5cb5945bb84f0cd2946a99, type: 3}

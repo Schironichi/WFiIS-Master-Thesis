@@ -1,0 +1,1 @@
+Check the polarizer angle. In most cases it should be set to 0°.
